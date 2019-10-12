@@ -14,7 +14,11 @@ From GUI, play around with scale and hitting app using its public endpoint
 
 ## Useful gcloud commands
 <pre>
+GET
 gcloud auth list
 gcloud config list project
+gcloud auth list
+
+PUSH
 
 </pre>
