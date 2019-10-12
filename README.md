@@ -10,3 +10,11 @@ docker push &ltusername&gt/&ltimage_name&gt:&lttag&gt
   
 From GUI, play around with scale and hitting app using its public endpoint
 </pre>
+
+
+## Useful gcloud commands
+<pre>
+gcloud auth list
+gcloud config list project
+
+</pre>
