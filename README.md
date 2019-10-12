@@ -1,10 +1,12 @@
 # docker-cheatsheet
 
 ## Google Cloud Lab
-gsutil cp gs://<bucketname> <destination>
-tar zxvf <name_of_tarred_dockerfiles>
-docker build -t "<username?/<image_name>:<tag>" .
+<pre>
+gsutil cp gs://&ltbucketname&gt/&ltdestination&gt
+tar zxvf &ltname_of_tarred_dockerfiles&gt
+docker build -t "&ltusername?/&limage_name&gt:&lttag&gt" .
 gcloud auth configure-docker
-docker push <username>/<image_name>:<tag>
+docker push &ltusername&gt/&ltimage_name&gt:&lttag&gt
   
 From GUI, play around with scale and hitting app using its public endpoint
+</pre>
