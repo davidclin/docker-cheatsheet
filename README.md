@@ -77,8 +77,13 @@ development practices are aligned with production deployment, leading to more re
 ```  
 </details>
 
+<hr>
 
+## Docker init 
+Use this to create boilerplate Docker files!
+<br>[Blog](https://spacelift.io/blog/docker-init#how-to-use-docker-init--example-)
 
+<hr>
 
 ## Google Cloud Lab
 <pre>
@@ -91,6 +96,7 @@ docker push &ltusername&gt/&ltimage_name&gt:&lttag&gt
 From GUI, play around with scale and hitting app using its public endpoint
 </pre>
 
+<hr>
 
 ## Useful gcloud commands
 <pre>
@@ -98,7 +104,5 @@ GET
 gcloud auth list
 gcloud config list project
 gcloud auth list
-
 PUSH
-
 </pre>
